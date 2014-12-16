@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">TestTask</string>
+    <string name="caption">Camera capture</string>
+	<string name="toast_take_picture">Taking picture</string>
+	<string name="toast_stop_taking">Stopped</string>
+    <string name="toast_camera_error">Stopped! Camera is busy or does not work.</string>
+    <string name="toast_opencv_error">Stopped! OpenCV library error.</string>
+    <string name="toast_picture_saved">Picture saved to</string>
+    <string name="btn_start">Start</string>
+    <string name="btn_stop">Stop</string>
+    <string name="capture_period">Capture period %d sec</string>
+    <string name="difference">Difference %d%%</string>
+    <string name="alert_error_title">Error</string>
+    <string name="alert_error_message">App closing because OpenCV Manager was not found on your device. Please install it from Google Play.</string>
+    <string name="alert_error_ok_button">Ok</string>
+    <string name="alert_help_title">Read carefully</string>
+    <string name="alert_help_message">\n
+        Preferences\n
+        Capture period is a time between camera take a shot.\n
+        Difference is a count of mismatches that mean another picture have to be saved.\n
+        \n
+        Usage\n
+        Set up wished period and difference, move device to catch needed objects on preview and press Start.\n
+        To end mapturing photos press Stop.
+    </string>
+</resources>
